@@ -2,20 +2,20 @@
 
 | საკითხები         | ლინკი                                            |
 |-------------------|-------------------------------------------------|
-| `Arrays`          | [Arrays](https://github.com/ddatunashvili/C_language_basics/tree/master/Arrays)          |
-| `data_structs`    | [Data Structures](https://github.com/ddatunashvili/C_language_basics/tree/master/data_structs)    |
-| `Functions`       | [Functions](https://github.com/ddatunashvili/C_language_basics/tree/master/Functions)       |
-| `pointers`        | [Pointers](https://github.com/ddatunashvili/C_language_basics/tree/master/pointers)        |
-| `Sizes`           | [Sizes](https://github.com/ddatunashvili/C_language_basics/tree/master/Sizes)           |
-| `Strings`         | [Strings](https://github.com/ddatunashvili/C_language_basics/tree/master/Strings)         |
-| `unions`          | [Unions](https://github.com/ddatunashvili/C_language_basics/tree/master/unions)          |
-| `Classes`         | [Classes](https://github.com/ddatunashvili/C_language_basics/tree/master/Classes)         |
-| `Files`           | [Files](https://github.com/ddatunashvili/C_language_basics/tree/master/Files)           |
-| `memory`          | [Memory Management](https://github.com/ddatunashvili/C_language_basics/tree/master/memory)          |
-| `ppdirectives`    | [Preprocessor Directives](https://github.com/ddatunashvili/C_language_basics/tree/master/ppdirectives)    |
-| `recurs`          | [Recursion](https://github.com/ddatunashvili/C_language_basics/tree/master/recurs)          |
-| `starting`        | [Starting](https://github.com/ddatunashvili/C_language_basics/tree/master/starting)        |
-| `Structures`      | [Structures](https://github.com/ddatunashvili/C_language_basics/tree/master/Structures)      |
+| `Starting`         | [Starting](https://github.com/ddatunashvili/C_language_basics/tree/master/starting)     |
+| `Sizes`            | [Sizes](https://github.com/ddatunashvili/C_language_basics/tree/master/Sizes)           |
+| `Strings`          | [Strings](https://github.com/ddatunashvili/C_language_basics/tree/master/Strings)       |
+| `Functions`        | [Functions](https://github.com/ddatunashvili/C_language_basics/tree/master/Functions)   |
+| `Pointers`         | [Pointers](https://github.com/ddatunashvili/C_language_basics/tree/master/pointers)     |
+| `Structures`       | [Structures](https://github.com/ddatunashvili/C_language_basics/tree/master/Structures)  |
+| `Unions`           | [Unions](https://github.com/ddatunashvili/C_language_basics/tree/master/unions)        |
+| `Data Structures`  | [Data Structures](https://github.com/ddatunashvili/C_language_basics/tree/master/data_structs) |
+| `Arrays`           | [Arrays](https://github.com/ddatunashvili/C_language_basics/tree/master/Arrays)          |
+| `Memory Management`| [Memory Management](https://github.com/ddatunashvili/C_language_basics/tree/master/memory) |
+| `Recursion`        | [Recursion](https://github.com/ddatunashvili/C_language_basics/tree/master/recurs)      |
+| `Files`            | [Files](https://github.com/ddatunashvili/C_language_basics/tree/master/Files)           |
+| `Preprocessor Directives` | [Preprocessor Directives](https://github.com/ddatunashvili/C_language_basics/tree/master/ppdirectives) |
+| `Classes`          | [Classes](https://github.com/ddatunashvili/C_language_basics/tree/master/Classes)       |
 
 ## გარემოს მომზადება
 
@@ -33,8 +33,8 @@ C პროგრამირების გარემოს მოსამ�
    - გახსენით Visual Studio Code და შედით **Terminal** > **New Terminal**.
    - ან, გამოიყენეთ Windows CMD.
 
-4. **დასავლა საქაღალდისათვის**:
-   - იქედან, სადაც თქვენს C ფაილებს შეინახავთ, შეიყვანეთ:
+4. **გადასვლა ფოლდერშ**:
+   - სადაც თქვენს C ფაილებს შეინახავთ გადადით ბრძანებით ფოლდერზე cmd ში:
 
      ```bash
      cd path/to/folder
@@ -56,7 +56,7 @@ C პროგრამირების გარემოს მოსამ�
 
 ## მაგალითი
 
-თუ თქვენი C ფაილი ეწოდება `example.c`, მაშინ ბრძანებები იქნება:
+თუ თქვენი C ფაილს ჰქვია `example.c`, მაშინ ბრძანებები იქნება:
 
 ```bash
 gcc -o example.exe example.c
@@ -85,7 +85,7 @@ gcc -o example.exe example.c && example.exe
 
 **ახალი პათის დამატება:**
 
-- დააწკაპუნეთ **New** და ჩააკოპირეთ `C:\MinGW\bin`.
+- დააჭირეთ **New** და ჩააკოპირეთ `C:\MinGW\bin`.
 
 **შენახვა:**
 
